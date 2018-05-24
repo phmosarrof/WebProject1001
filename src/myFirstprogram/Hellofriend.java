@@ -5,7 +5,7 @@ public class Hellofriend {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.out.println("This project is for my study group and practiec");
+		System.out.println("This project is for my study group and practic");
 		
 		int a,b,c;
 		a = 10; b = 20;
