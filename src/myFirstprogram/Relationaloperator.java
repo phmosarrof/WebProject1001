@@ -12,19 +12,19 @@ public class Relationaloperator {
 		b = 90;
 		c = 100;
 		output = b<a;
-		System.out.println("\nOutput = " +output);
-		System.out.println("\nOutput = " +(a>b));
-		System.out.println("\nOutput = " +(a<b));
-		System.out.println("\nOutput = " +(a>c));
-		System.out.println("\nOutput = " +(a<c));
-		System.out.println("\nOutput = " +(b>a));
-		System.out.println("\nOutput = " +(b>c));
-		System.out.println("\nOutput = " +(b<a));
-		System.out.println("\nOutput = " +(b<c));
-		System.out.println("\nOutput = " +(c>b));
-		System.out.println("\nOutput = " +(c>a));
-		System.out.println("\nOutput = " +(c<b));
-		System.out.println("\nOutput = " +(c<a));
+		System.out.println("\n1. Output = " +output);
+		System.out.println("\n2. Output = " +(a>b));
+		System.out.println("\n3. Output = " +(a<b));
+		System.out.println("\n4. Output = " +(a>c));
+		System.out.println("\n5. Output = " +(a<c));
+		System.out.println("\n6. Output = " +(b>a));
+		System.out.println("\n7. Output = " +(b>c));
+		System.out.println("\n8. Output = " +(b<a));
+		System.out.println("\n9. Output = " +(b<c));
+		System.out.println("\n10. Output = " +(c>b));
+		System.out.println("\n11. Output = " +(c>a));
+		System.out.println("\n12. Output = " +(c<b));
+		System.out.println("\n13. Output = " +(c<a));
 		
 	}
 
