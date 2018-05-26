@@ -12,6 +12,8 @@ public class Hellofriend {
 		c = a+b;
 		
 		System.out.println("Total =" +c);
+		
+		
 
 	}
 
