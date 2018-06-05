@@ -1,7 +1,7 @@
 package myFirstprogram;
 
 public class Conditionalstatement {
-	public static void main(String{[] args) {
+	public static void main(String[] args){
 	
 	int a,b;
 	a=1;
@@ -14,5 +14,6 @@ public class Conditionalstatement {
 
 
 	}
+}
 
 	

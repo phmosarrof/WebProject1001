@@ -3,9 +3,9 @@ package myFirstprogram;
 public class IfCondition {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-String name = " Khan";
-if(name== " Khan")
+		
+String name = "10";
+if(name== "10")
 	
 {
 	System.out.println(" Yes, Lutfur khan is our instructor");
