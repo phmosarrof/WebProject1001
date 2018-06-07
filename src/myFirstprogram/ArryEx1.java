@@ -23,7 +23,7 @@ public class ArryEx1 {
 		int array[] = new int[10];
 		
 		for (int count=0;count<10; count++){
-			array[ +count+ ] = count+1
+			array[ +count ] = +count
 		}
 		
 		for (int count=2;count<10;count++) {
