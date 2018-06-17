@@ -3,14 +3,12 @@ package myFirstprogram;
 public class Switch01 {
 
 	public Switch01() {
-		// TODO Auto-generated constructor stub
+		
 	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String args[]) {
 		
 		// int messi = 10;
-		char messi ='A';
+		int messi ='D';
 		//char Moni = 'D';
 		switch (messi) {
 

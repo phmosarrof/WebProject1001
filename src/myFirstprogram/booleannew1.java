@@ -20,13 +20,13 @@ z1 = y1 > x1;
 
 System.out.println("y1 > x1 is " +z1);
 
-System.out.println("x =" +x);
+System.out.println("x = " +x);
 
-System.out.println("y =" +y);
+System.out.println("y = " +y);
 
 
-System.out.print("\nJava progrm is one most popular language in the world");
-System.out.print("\nJava progrm is one most popular language in the world");
+System.out.print("\nJava progrm is one most popular language in the world!");
+System.out.print("\nJava progrm is one most popular language in the world!");
 	}
 
 }

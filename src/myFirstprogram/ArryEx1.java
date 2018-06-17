@@ -20,15 +20,16 @@ public class ArryEx1 {
       // array[8] =10;*/
 		
 		
-		int array[] = new int[10];
+		int arr[] = new int[10];
 		
-		for (int count=0;count<10; count++){
-			array[ +count ] = +count
+		for (int count=1;count<10; count++){
+			arr[ +count ] = +count+0;
 		}
+		for (int count=1;count<10; count++) 
 		
-		for (int count=2;count<10;count++) {
+		{
 			
-			System.out.println("array["+count+"]="+array[count]);
+			System.out.println("arr["+count+"]="+arr[count]);
 		}
 		
 
