@@ -1,15 +1,22 @@
 package myFirstprogram;
 
-class Human {
-		
-	char gender;
+public class Human {
+	String Name;	
+	char gender; // Member Variable declare.
 	int age;
 	
-	public char getGender() {
+	public String getName() {
+		return Name;
+	}
+	
+	public void setName(String Name) {
+		this.Name = Name;
+	}
+	public char getGender() { // Member function declare.
 		return gender;
 	}
 	
-	public void setGender(char gender) {
+	public void setGender(char gender) { // Method
 		this.gender = gender;
 	}
 
@@ -26,9 +33,11 @@ class Human {
 		Human mahdi = new Human();
 		Human munim = new Human();
 		
+		((Human) mahdi).setName("Mahdi Islam");
+		((Human) munim).setName("Munium Islam");
 		((Human) mahdi).setAge(25);
-		
 		((Human) munim).setAge(15);
+		
 		((Human) munim).setGender('M');
 		((Human) mahdi).setGender('M');
 		
@@ -36,8 +45,8 @@ class Human {
 		System.out.println("Munim's Age = " + munim.getAge());
 		System.out.println("Munim's Gender = " + munim.getGender());
 		System.out.println("Mahdi's Gender = " + mahdi.getGender());
-	
-		
+		System.out.println("Mahdi's Full Name = "+ mahdi.getName());
+		System.out.println("Munim's Full Name = "+ munim.getName());
 	}
 
 }
