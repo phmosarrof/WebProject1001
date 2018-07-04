@@ -8,6 +8,7 @@ public class Switch01 {
 	public static void main(String args[]) {
 		
 		// int messi = 10;
+		
 		int messi ='D';
 		//char Moni = 'D';
 		switch (messi) {

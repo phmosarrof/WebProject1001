@@ -22,10 +22,10 @@ public class DataTypeCast1 {
 		long c = 1000000000;
 		
 		
-		System.out.println("\nThe value of a is "+a);
-		System.out.println("\nThe value of b is "+b);
-		System.out.println("\nAfter data type casting - int (a/b) = " +a/b);
-		System.out.println("\nAfter casting with data long int (a/c) is "+ a/c);
+		System.out.println("\nThe value of a = "+a);
+		System.out.println("\nThe value of b = "+b);
+		System.out.println("\nAfter data type casting" + " int" +" a converted into the double-(a/b) = " +a/b);
+		System.out.println("\nAfter casting long data into int (a/c) = "+ a/c);
 		
 	
 	}

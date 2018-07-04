@@ -3,13 +3,13 @@ package myFirstprogram;
 public class DatatypeCastingEx2 {
 
 	public DatatypeCastingEx2() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		  byte x;
+		 
 		  int a = 270;
 		  double b = 128.128;
 		  
@@ -17,7 +17,7 @@ public class DatatypeCastingEx2 {
 		  
 		  x = (byte) a;
 		  
-		  System.out.println("a and x " + a+" " + x);
+		  System.out.println("a = " + a+" \nX= " + x);
 		  
 		  System.out.println("double converted to int");
 		  
@@ -30,6 +30,12 @@ public class DatatypeCastingEx2 {
 		  x = (byte) b;
 		  
 		  System.out.println("b and x " + b + " " + x);
+		  
+		  a=(int)x;
+		  System.out.println("\nInt a=270 and in byte it is "+a);
+		  
+		  
+		  
 		
 	}
 
