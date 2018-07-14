@@ -26,7 +26,7 @@ public class DataTypeCast1 {
 		System.out.println("\nThe value of b = "+b);
 		System.out.println("\nAfter data type casting" + " int" +" a converted into the double-(a/b) = " +a/b);
 		System.out.println("\nAfter casting long data into int (a/c) = "+ a/c);
-		
+		System.out.println(" \n" +c/a);
 	
 	}
 

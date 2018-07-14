@@ -3,12 +3,18 @@ package myFirstprogram;
 public class Newclass06 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		double x,y,z;
+		
+		double x,y;
+		int z;
+		z = 10;
 		x = 10.2;
 		y = 20.5;
-		z = x/y;
+	
 		System.out.println("Z = " +z);
+		System.out.println(z/x);
+		System.out.println(x/z);
+		System.out.println(y);
+		
 	}
 
 }
