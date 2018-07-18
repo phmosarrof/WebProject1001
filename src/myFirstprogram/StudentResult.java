@@ -47,7 +47,7 @@ class Student{
   setNameN("Nahian Afroz");
   GTotal1 = Tutorial + setMark1 (25, 35, 10 );
   
-  System.out.println("	Student Name : " + NameN);
+  System.out.println("	\n	Student Name : " + NameN);
   System.out.print("	Tutorial Mark = " + Tutorial);
   System.out.print("\n	English Mark = " + Mark3);
   System.out.print("\n	Math Mark = " + Mark4);
@@ -76,13 +76,14 @@ class Student{
   }
   
   GTotal = Tutorial + setMark (15, 45, 10 );
-  System.out.println("--------------------------------------------------------");
+  System.out.println("\n----------------------------------------\n");
   System.out.println("  	Student Name : " + NameM);
   System.out.print("	Tutorial Mark = " + Tutorial);
   System.out.print("\n	English Mark = " + Mark1);
   System.out.print("\n	Math Mark = " + Mark2);
   System.out.println("\n	Total = " + Total);
   System.out.print("	Grand Total = " + GTotal);
+
   
   if (GTotal >=80)
   {
@@ -103,8 +104,9 @@ class Student{
   else
   {
 	  System.out.println(" \n	Sorry! You are Fail. Try to give the exam again");
+	
   }
-  
+  System.out.println("\n----------------------------------------");
   }
  
  }
@@ -112,7 +114,7 @@ class Student{
  		public static void main(String args[])		// throws  IOException
  {					         
  			Student Moni = new Student();	
- 											// S is an object array of Student class
+ 													// S is an object array of Student class
  			Moni.display(); 								// Method Call
  
  	}
