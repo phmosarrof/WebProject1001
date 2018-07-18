@@ -44,62 +44,62 @@ class Student{
   setNameN("Nahian Afroz");
   GTotal1 = Tutorial + setMark1 (25, 35, 10 );
   
-  System.out.println("Student Name : " + NameN);
-  System.out.print("Tutorial Mark = " + Tutorial);
-  System.out.print("\nEnglish Mark = " + Mark3);
-  System.out.print("\nMath Mark = " + Mark4);
-  System.out.println("\nTotal = " + Total1);
-  System.out.print("Grand Total = " + GTotal1);
+  System.out.println("	Student Name : " + NameN);
+  System.out.print("	Tutorial Mark = " + Tutorial);
+  System.out.print("\n	English Mark = " + Mark3);
+  System.out.print("\n	Math Mark = " + Mark4);
+  System.out.println("\n	Total = " + Total1);
+  System.out.print("	Grand Total = " + GTotal1);
   
   if (GTotal1 >=80 )
   {
-	  System.out.println("\nThe Student's Garde A");
+	  System.out.println("\n	The Student's Garde A");
   }
   else if (GTotal1 >=70 && GTotal1 <= 79)
   {
-	  System.out.println(" \nThe Student's Garde B ");
+	  System.out.println(" \n	The Student's Garde B ");
   }
   else if (GTotal1 >=60 && GTotal1 <= 69)
   {
-	  System.out.println(" \nThe Student's Garde C ");
+	  System.out.println(" \n	The Student's Garde C ");
   }
   else if (GTotal1 >=50 && GTotal1 <= 59)
   {
-	  System.out.println(" \nThe Student's Garde D ");
+	  System.out.println(" \n	The Student's Garde D ");
   }
   else
   {
-	  System.out.println(" \nSorry! You are Fail. Try to give the exam again");
+	  System.out.println(" \n	Sorry! You are Fail. Try to give the exam again");
   }
   
   GTotal = Tutorial + setMark (15, 45, 10 );
   System.out.println("----------------------------------------------------------------");
-  System.out.println("Student Name : " + NameM);
-  System.out.print("Tutorial Mark = " + Tutorial);
-  System.out.print("\nEnglish Mark = " + Mark1);
-  System.out.print("\nMath Mark = " + Mark2);
-  System.out.println("\nTotal = " + Total);
-  System.out.print("Grand Total = " + GTotal);
+  System.out.println("  	Student Name : " + NameM);
+  System.out.print("	Tutorial Mark = " + Tutorial);
+  System.out.print("\n	English Mark = " + Mark1);
+  System.out.print("\n	Math Mark = " + Mark2);
+  System.out.println("\n	Total = " + Total);
+  System.out.print("	Grand Total = " + GTotal);
   
   if (GTotal >=80)
   {
-	  System.out.println("\nThe Student's Garde A");
+	  System.out.println("\n	The Student's Garde A");
   }
   else if (GTotal >=70 && GTotal <= 79)
   {
-	  System.out.println(" \nThe Student's Garde B ");
+	  System.out.println(" \n	The Student's Garde B ");
   }
   else if (GTotal >=60 && GTotal <= 69)
   {
-	  System.out.println(" \nThe Student's Garde C ");
+	  System.out.println(" \n	The Student's Garde C ");
   }
   else if (GTotal >=50 && GTotal <= 59)
   {
-	  System.out.println(" \nThe Student's Garde D ");
+	  System.out.println(" \n	The Student's Garde D ");
   }
   else
   {
-	  System.out.println(" \nSorry! You are Fail. Try to give the exam again");
+	  System.out.println(" \n	Sorry! You are Fail. Try to give the exam again");
   }
   
   }
