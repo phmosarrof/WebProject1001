@@ -3,14 +3,22 @@ package myFirstprogram;
 /* Method call that effects on return value*/ 
 
 class Student{
-  String NameM,NameN;
-  float Mark1, Mark2, Mark3, Mark4,Tutorial;
-  float Total, GTotal,Total1, GTotal1;
+ 
+	String NameM,NameN;
+    float Mark1, Mark2, Mark3, Mark4,Tutorial;
+    float Total, GTotal,Total1, GTotal1;
   
   String setNameM (String Name2 )
   {
 	NameM = Name2;
-	 return(NameM);
+	 return(Name2);
+  }
+  
+  String setNameN(String Name1)
+  {
+	 NameN = Name1;
+ 
+	  return(Name1);
   }
   
  float setMark (float M1, float M2, float Tutorial)
@@ -22,6 +30,7 @@ class Student{
 	 Total = Mark1 + Mark2 + Tutorial;
 	 return(Total);
   }
+ 
  float setMark1 (float M3, float M4, float Tutorial)
  {
 	 Mark3 = M3;
@@ -31,12 +40,6 @@ class Student{
 	 Total1 = Mark3 + Mark4 + Tutorial;
 	 return(Total1);
  }
- String setNameN(String Name1)
-  {
-	 NameN = Name1;
- 
-	  return(NameN);
-  }
  
  void display(){
 	 
@@ -105,13 +108,12 @@ class Student{
   }
  
  }
- public class StudentResult{
-public static void main(String args[])		// throws  IOException
+ 		public class StudentResult{
+ 		public static void main(String args[])		// throws  IOException
  {					         
- Student Moni = new Student();	
+ 			Student Moni = new Student();	
+ 											// S is an object array of Student class
+ 			Moni.display(); 								// Method Call
  
-											// S is an object array of Student class
- Moni.display(); 								// Method Call
- 
- }
+ 	}
 } 
