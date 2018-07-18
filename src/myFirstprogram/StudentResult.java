@@ -73,7 +73,7 @@ class Student{
   }
   
   GTotal = Tutorial + setMark (15, 45, 10 );
-  System.out.println("----------------------------------------------------------------");
+  System.out.println("--------------------------------------------------------");
   System.out.println("  	Student Name : " + NameM);
   System.out.print("	Tutorial Mark = " + Tutorial);
   System.out.print("\n	English Mark = " + Mark1);
